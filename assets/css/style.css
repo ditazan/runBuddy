@@ -70,10 +70,9 @@ section {
 }
 
 .hero {
-  background-image: url("./images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
-  background-position: center;
   background-position: center;
   position: relative;
 }
@@ -268,3 +267,9 @@ section {
 }
 
 /* REACH OUT STYLES END */
+
+.hero-secondary {
+    background-color: black;
+    color: red;
+
+}
