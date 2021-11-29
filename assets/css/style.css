@@ -141,8 +141,6 @@ section {
   font-size: 16px;
 }
 
-
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -152,7 +150,6 @@ section {
   text-align: center;
 }
 
-
 .section-title {
   font-size: 55px;
   border-bottom: 3px solid;
@@ -160,7 +157,7 @@ section {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-  width:50%;
+  width: 50%;
 }
 
 .primary-border {
@@ -172,7 +169,7 @@ section {
 }
 .steps {
   background: #fce138;
-} 
+}
 
 .step {
   margin: 50px auto;
@@ -205,7 +202,7 @@ section {
   font-size: 18px;
 }
 
-.step-info{
+.step-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
@@ -219,7 +216,6 @@ section {
 .step-img img {
   max-width: 100%;
 }
-
 
 .text-left {
   text-align: left;
@@ -267,8 +263,6 @@ section {
   font-size: 17px;
 }
 
-
-
 .contact {
   background: #024e76;
 }
@@ -277,17 +271,21 @@ section {
   color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
-  width: 400px;
-  height: 400px;
 }
 
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 
@@ -300,7 +298,7 @@ section {
 .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
 }
 
@@ -308,6 +306,27 @@ section {
   color: #fce138;
 }
 
+.contact-form input,
+.contact-form text-area {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form button{
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+}
 /* REACH OUT STYLES END */
 
 .hero-secondary {
